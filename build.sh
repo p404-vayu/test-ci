@@ -27,7 +27,7 @@ echo '[4/4] Installing adb convenience tools'
 sudo pacman -S --noconfirm --needed android-tools android-udev
 
 echo 'Setup completed, enjoy'
-
+ 
 # sync rom
 repo init --depth=1 --no-repo-verify -u https://github.com/P-404/android_manifest -b shinka -g default,-mips,-darwin,-notdefault
 git clone https://github.com/p404-vayu/local_manifest --depth=1 -b main .repo/local_manifests
